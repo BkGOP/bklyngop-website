@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official website of the Kings County Republican Party — Brooklyn GOP." />
+  <title>Brooklyn GOP | Kings County Republican Party</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Brooklyn GOP home">
+      <span class="brand-mark">★</span>
+      <span>
+        <strong>BROOKLYN GOP</strong>
+        <small>Kings County Republican Party</small>
+      </span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#priorities">Priorities</a>
+      <a href="#involved">Get Involved</a>
+      <a class="nav-button" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">THE OFFICIAL KINGS COUNTY REPUBLICAN PARTY</p>
+        <h1>Building a Stronger Republican Party in Brooklyn</h1>
+        <p class="hero-copy">
+          Supporting principled candidates, strengthening our communities, and advancing
+          safe streets, economic opportunity, strong families, and accountable government.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#involved">Get Involved</a>
+          <a class="button button-secondary" href="#contact">Stay Connected</a>
+        </div>
+      </div>
+      <div class="skyline" aria-hidden="true">
+        <svg viewBox="0 0 1600 360" preserveAspectRatio="none">
+          <path d="M0 320V250h70v-55h45v55h35V175h55v145h35V225h65v95h45V145h38v175h50V205h70v115h60V165h38v155h45V95h42v225h55V210h75v110h50V180h42v140h54V125h55v195h50V235h72v85h45V160h52v160h65V220h72v100h55V140h50v180h65V205h74v115h58V250h80v70z" />
+          <path class="bridge" d="M65 270 C240 120, 420 120, 595 270 M100 270V210 M560 270V210 M250 210V270 M410 210V270" />
+        </svg>
+      </div>
+    </section>
+
+    <section class="welcome" id="about">
+      <div>
+        <p class="section-label">WELCOME</p>
+        <h2>A Republican home for every Brooklyn neighborhood</h2>
+      </div>
+      <div>
+        <p>
+          The Brooklyn GOP is working to build a stronger, more active Republican Party
+          throughout Kings County. We support candidates, organize our communities,
+          develop new leaders, and stand up for Brooklyn families.
+        </p>
+        <p>
+          Whether you are a lifelong Republican, an independent looking for a new
+          political home, or simply ready to make a difference, there is a place for you here.
+        </p>
+        <p class="signature"><strong>Liam McCabe</strong><br />Chairman, Kings County Republican Party</p>
+      </div>
+    </section>
+
+    <section class="priorities" id="priorities">
+      <p class="section-label">OUR PRIORITIES</p>
+      <h2>Standing up for Brooklyn</h2>
+      <div class="card-grid">
+        <article class="card">
+          <span class="card-number">01</span>
+          <h3>Safe Streets</h3>
+          <p>Supporting law enforcement, first responders, and policies that keep every neighborhood secure.</p>
+        </article>
+        <article class="card">
+          <span class="card-number">02</span>
+          <h3>Economic Opportunity</h3>
+          <p>Helping small businesses grow, lowering burdens on working families, and making Brooklyn more affordable.</p>
+        </article>
+        <article class="card">
+          <span class="card-number">03</span>
+          <h3>Accountable Government</h3>
+          <p>Demanding transparency, fiscal responsibility, and leadership that puts Brooklyn residents first.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" id="involved">
+      <div>
+        <p class="section-label light">GET INVOLVED</p>
+        <h2>Help us build the future of the Brooklyn GOP</h2>
+        <p>Volunteer, attend an event, join our mailing list, or support our work across Kings County.</p>
+      </div>
+      <a class="button button-light" href="mailto:info@bklyngop.org?subject=I%20want%20to%20get%20involved">Join the Movement</a>
+    </section>
+
+    <section class="contact" id="contact">
+      <div>
+        <p class="section-label">CONTACT</p>
+        <h2>Stay connected</h2>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:info@bklyngop.org">info@bklyngop.org</a>
+        <a href="https://www.instagram.com/bklyngop" target="_blank" rel="noopener">@BklynGOP on Instagram</a>
+        <a href="https://x.com/BklynGOP" target="_blank" rel="noopener">@BklynGOP on X</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Brooklyn GOP</strong> · Kings County Republican Party · Brooklyn, New York</p>
+    <p>© <span id="year"></span> Kings County Republican Party. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
